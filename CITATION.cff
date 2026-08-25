@@ -6,16 +6,17 @@ title: >-
 message: If you use this software, please cite both the software and the paper.
 type: software
 authors:
-  - family-names: Boualem
-    given-names: Adda
   - family-names: Berber
     given-names: Elmehdi
+  - family-names: Boualem
+    given-names: Adda
   - family-names: Daas
     given-names: Samia
 version: 1.0.0
 date-released: 2026-08-24
 license: MIT
-repository-code: https://github.com/USERNAME/ioncontrol
+doi: 10.5281/zenodo.22090216
+repository-code: https://github.com/WaledAmidou/ioncontrol
 abstract: >-
   Reproducibility package for a study that identifies a cyber-physiological
   control framework from NHANES 2015-2016 and 2021-2023, evaluates it in
