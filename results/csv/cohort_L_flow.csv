@@ -1,0 +1,13 @@
+,0
+NHANES 2021-2023 participants (DEMO),11933
+With serum total Ca,6362
+With magnesium (serum magnesium LBXMAGN (mg/dL)),6268
+With fasting glucose and insulin,3476
+With BMI,8471
+Primary analytic cohort,2975
+  normoglycaemic,1262
+  dysglycaemic,1686
+  diabetes,526
+Secondary: diagnosed diabetes (DIQ010==1),393
+  insulin-treated early-onset (T1D surrogate),8
+Metabolically healthy reference subgroup,738

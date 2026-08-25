@@ -1,0 +1,14 @@
+,0
+NHANES 2015-2016 participants (DEMO),9971
+With serum Zn,2435
+With serum total Ca,6257
+"With magnesium (dietary recalls DR1TMAGN/DR2TMAGN (mg/day), proxy)",8331
+With fasting glucose and insulin,2915
+With BMI,8756
+Primary analytic cohort,720
+  normoglycaemic,276
+  dysglycaemic,438
+  diabetes,157
+Secondary: diagnosed diabetes (DIQ010==1),117
+  insulin-treated early-onset (T1D surrogate),3
+Metabolically healthy reference subgroup,183

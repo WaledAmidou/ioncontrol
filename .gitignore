@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+.sobol_cache/
+data/*.xpt
+data/*.XPT
+results/figures/*.png
+!**/.gitkeep
+# Result tables and CSVs ARE versioned: a referee without the 120 MB of NHANES
+# files must still be able to inspect every reported number.
+!results/csv/*.csv
+!results/tables/*.tex

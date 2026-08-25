@@ -1,0 +1,25 @@
+\begin{table}[!t]
+\centering
+\caption{\rev{Held-out evaluation of the learned metal--insulin model
+$\hat f$. Target: $\log$ HOMA-B; training partition 70\%, untouched test
+partition 30\%, stratified on the HOMA-B quartile; model selection by 5-fold
+cross-validation inside the training partition only.}}
+\label{tab:learning}
+{\scriptsize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{|@{\,}l@{\,}|c|c|c|c|}
+\hline
+\textbf{Model} & \textbf{CV $R^2$ (SD)} & \textbf{Test $R^2$} &
+\textbf{RMSE} & \textbf{$\rho_s$} \\ \hline
+Linear (OLS) & +0.095 (0.045) & -0.059 & 0.634 & +0.097 \\ \hline
+Ridge (GCV) & +0.102 (0.033) & -0.031 & 0.626 & +0.070 \\ \hline
+Gradient boosting & +0.041 (0.054) & -0.173 & 0.668 & +0.016 \\ \hline
+MLP (32,16) & -0.398 (0.286) & -0.485 & 0.752 & +0.006 \\ \hline
+MLP, permuted (control) & -- & -0.451 & 0.743 & -0.001 \\ \hline
+\end{tabular}}
+\vspace{1mm}
+\parbox{\linewidth}{\scriptsize \rev{$\rho_s$: Spearman correlation on the
+test partition. The permuted-label row is the no-information floor. Mean
+absolute error follows RMSE monotonically and is reported in the released
+result files.}}
+\end{table}

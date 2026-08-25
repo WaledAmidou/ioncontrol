@@ -1,0 +1,31 @@
+\begin{table}[!t]
+\centering
+\caption{\rev{Complete identified parameter set. Every entry is either
+estimated from NHANES 2015--2016 or declared as an explicit prior that is
+propagated through the global sensitivity analysis; no value is chosen for
+illustration only. This table makes the simulation independently
+reproducible.}}
+\label{tab:model}
+{\scriptsize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{|@{\,}l@{\,}|c|p{3.6cm}|}
+\hline
+\textbf{Parameter} & \textbf{Value} & \textbf{Provenance} \\ \hline
+$\kappa_{Zn}$ (min$^{-1}$) & 0.00770 & literature half-life, swept $\pm 50\%$ in the Sobol analysis \\ \hline
+$\kappa_{Ca}$ (min$^{-1}$) & 0.02310 & literature half-life, swept $\pm 50\%$ in the Sobol analysis \\ \hline
+$\kappa_{Mg}$ (min$^{-1}$) & 0.00578 & literature half-life, swept $\pm 50\%$ in the Sobol analysis \\ \hline
+$\Sigma_{ZnZn}$ & 149.7 & NHANES reference-subgroup variance \\ \hline
+$\Sigma_{CaCa}$ & 0.1067 & NHANES reference-subgroup variance \\ \hline
+$\Sigma_{MgMg}$ & 1.93e+04 & NHANES reference-subgroup variance \\ \hline
+$W_{ZnZn}$ & 2.306 & derived: $W=-(A\Sigma+\Sigma A^{T})$ \\ \hline
+$W_{CaCa}$ & 0.00493 & derived: $W=-(A\Sigma+\Sigma A^{T})$ \\ \hline
+$W_{MgMg}$ & 222.9 & derived: $W=-(A\Sigma+\Sigma A^{T})$ \\ \hline
+$\alpha_{Zn}$ & -0.0340 & NHANES regression, 95\% CI [-0.0886, +0.0199], $p=0.215$ \\ \hline
+$\alpha_{Ca}$ & -0.0352 & NHANES regression, 95\% CI [-0.0945, +0.0207], $p=0.209$ \\ \hline
+$\alpha_{Mg}$ & not identifiable & serum Mg is not measured in NHANES 2015--2016; treated as latent \\ \hline
+$\mathbf{Q}$ & $\mathrm{diag}(1/\sigma_i^2)$ & data-derived: unit weight per reference SD \\ \hline
+$\mathbf{R}$ & $2.0\,\mathbf{I}$ & smallest value keeping nominal overshoot $<10\%$ \\ \hline
+$\Delta t$ / horizon & 0.1 / 240 min & forward Euler \\ \hline
+SNR & 30 dB & nominal nanosensor noise \\ \hline
+\end{tabular}}
+\end{table}

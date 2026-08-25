@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+title: >-
+  ioncontrol: reproducibility package for "Falsifying Cyber-Physiological
+  Control Concepts: A Reproducible Framework Applied to Metal-Ion Regulation
+  in Type 1 Diabetes"
+message: If you use this software, please cite both the software and the paper.
+type: software
+authors:
+  - family-names: Boualem
+    given-names: Adda
+  - family-names: Berber
+    given-names: Elmehdi
+  - family-names: Daas
+    given-names: Samia
+version: 1.0.0
+date-released: 2026-08-24
+license: MIT
+repository-code: https://github.com/USERNAME/ioncontrol
+abstract: >-
+  Reproducibility package for a study that identifies a cyber-physiological
+  control framework from NHANES 2015-2016 and 2021-2023, evaluates it in
+  closed loop, and tests its physiological premise. The control result is
+  robust; the physiological premise does not survive endpoint decomposition,
+  proxy validation and adiposity adjustment.
+keywords:
+  - NHANES
+  - adaptive control
+  - insulin resistance
+  - reproducibility
+  - falsification

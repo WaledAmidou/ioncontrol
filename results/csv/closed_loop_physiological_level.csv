@@ -1,0 +1,41 @@
+Strategy,mean,ci_lo,ci_hi,p_two_sided,endpoint,subgroup,model
+Glucose-only,0.2213305820197166,0.03258013885762505,0.6048513744070751,0.0,HOMA-IR,whole cohort,unadjusted
+Metal supplementation,-1.219470912890428,-2.3333734676191416,0.16279320533368946,0.0755,HOMA-IR,whole cohort,unadjusted
+Fixed-gain PID,-0.021239659716966022,-0.5098929232345992,0.2404470951161834,0.888,HOMA-IR,whole cohort,unadjusted
+Proposed adaptive AI,-0.02846678424026566,-0.5201382932863586,0.23537771626126278,0.9165,HOMA-IR,whole cohort,unadjusted
+Model-based LQR (no adaptation),-0.03135182202177623,-0.523341813750404,0.23228198495884175,0.9315,HOMA-IR,whole cohort,unadjusted
+Glucose-only,0.14624388139296057,-0.03128326122160588,0.5449552274487883,0.241,HOMA-IR,lowest Mg tertile,unadjusted
+Metal supplementation,-1.187320910726695,-2.2316154964017696,0.12659854008841717,0.069,HOMA-IR,lowest Mg tertile,unadjusted
+Fixed-gain PID,-3.190902500349481,-5.768902486570954,-0.8197115017372819,0.0065,HOMA-IR,lowest Mg tertile,unadjusted
+Proposed adaptive AI,-3.186778883029203,-5.750097413535934,-0.8234586518401311,0.0065,HOMA-IR,lowest Mg tertile,unadjusted
+Model-based LQR (no adaptation),-3.1762304712653444,-5.730103944630841,-0.8261332643992484,0.0065,HOMA-IR,lowest Mg tertile,unadjusted
+Glucose-only,0.05546498706852868,0.007281120307769679,0.14373195000008765,0.007,Disposition index,whole cohort,unadjusted
+Metal supplementation,0.4449005130111626,-0.4964117425035177,1.5151266123822986,0.378,Disposition index,whole cohort,unadjusted
+Fixed-gain PID,-0.19905657433371168,-0.38720136067500743,-0.04330140532770435,0.01,Disposition index,whole cohort,unadjusted
+Proposed adaptive AI,-0.19603877973475364,-0.382643777230283,-0.04195866881548007,0.01,Disposition index,whole cohort,unadjusted
+Model-based LQR (no adaptation),-0.19374754213683615,-0.37871264400603233,-0.04086134151454069,0.0105,Disposition index,whole cohort,unadjusted
+Glucose-only,0.09454794742805114,0.010218993302601327,0.2075405324635068,0.02,Disposition index,lowest Mg tertile,unadjusted
+Metal supplementation,0.439893705828221,-0.42437316602410424,1.421601380956785,0.3395,Disposition index,lowest Mg tertile,unadjusted
+Fixed-gain PID,1.7630687746946259,0.33054085483289586,3.1152830615774043,0.013,Disposition index,lowest Mg tertile,unadjusted
+Proposed adaptive AI,1.756800254894666,0.33466841833870536,3.0992058964870997,0.013,Disposition index,lowest Mg tertile,unadjusted
+Model-based LQR (no adaptation),1.7473128772820663,0.3297795943754057,3.0796333261625612,0.013,Disposition index,lowest Mg tertile,unadjusted
+Glucose-only,0.23231028369043502,0.05806902228717194,0.535484197234825,0.0,HOMA-IR,whole cohort,BMI-adjusted
+Metal supplementation,-0.6595648769849122,-1.6304647988968584,0.4523187686209907,0.231,HOMA-IR,whole cohort,BMI-adjusted
+Fixed-gain PID,-0.39635873337976946,-0.8043219074662991,-0.10170984650704727,0.0035,HOMA-IR,whole cohort,BMI-adjusted
+Proposed adaptive AI,-0.40024728258666475,-0.811294470399057,-0.10525158823604303,0.0035,HOMA-IR,whole cohort,BMI-adjusted
+Model-based LQR (no adaptation),-0.4035849618458346,-0.8149923752966068,-0.10967347349857307,0.0035,HOMA-IR,whole cohort,BMI-adjusted
+Glucose-only,0.38031729208245896,0.14587490065112244,0.7254816423610357,0.0,HOMA-IR,lowest Mg tertile,BMI-adjusted
+Metal supplementation,-0.6274731006922225,-1.497265264591322,0.3909622595066329,0.2065,HOMA-IR,lowest Mg tertile,BMI-adjusted
+Fixed-gain PID,-0.3918387725904077,-2.43021041913839,1.554162358723486,0.699,HOMA-IR,lowest Mg tertile,BMI-adjusted
+Proposed adaptive AI,-0.39822054931009654,-2.4270566611998574,1.544020652486187,0.695,HOMA-IR,lowest Mg tertile,BMI-adjusted
+Model-based LQR (no adaptation),-0.38485249868466953,-2.401355814786164,1.5484213610869693,0.7025,HOMA-IR,lowest Mg tertile,BMI-adjusted
+Glucose-only,0.05262555255089206,0.007845805529109715,0.14025350972460493,0.0025,Disposition index,whole cohort,BMI-adjusted
+Metal supplementation,0.26494695446195243,-0.6461491542814718,1.3167299042756735,0.616,Disposition index,whole cohort,BMI-adjusted
+Fixed-gain PID,-0.10295108126604614,-0.27819904809304624,0.037989550728455154,0.1895,Disposition index,whole cohort,BMI-adjusted
+Proposed adaptive AI,-0.10099963710938621,-0.27611105053642077,0.03865357305288969,0.196,Disposition index,whole cohort,BMI-adjusted
+Model-based LQR (no adaptation),-0.09856131022015234,-0.2721952847349403,0.03983431453400681,0.2075,Disposition index,whole cohort,BMI-adjusted
+Glucose-only,0.030505316245262506,-0.029912290543352232,0.12190766575678713,0.447,Disposition index,lowest Mg tertile,BMI-adjusted
+Metal supplementation,0.2789434901709611,-0.5553080109943223,1.2580955705800827,0.5575,Disposition index,lowest Mg tertile,BMI-adjusted
+Fixed-gain PID,0.8510817215787424,-0.5402931178286398,2.176388539241977,0.221,Disposition index,lowest Mg tertile,BMI-adjusted
+Proposed adaptive AI,0.8481975480155022,-0.5350529685884352,2.1661734367509133,0.221,Disposition index,lowest Mg tertile,BMI-adjusted
+Model-based LQR (no adaptation),0.8389906111669554,-0.536949388347144,2.1494536198922924,0.2245,Disposition index,lowest Mg tertile,BMI-adjusted
